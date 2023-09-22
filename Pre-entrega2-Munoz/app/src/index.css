@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color: rgb(165, 195, 236);
+    height: 80px;
+    display: flex;
+}
+
+.LogoHeader{
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    padding-left: 115px;
+}
+
+.nav, .ul-nav, .li-nav{
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ul-nav, .li-nav{
+    display: flex;
+    justify-content: right;
+    padding-right: 15px;
+    color: azure;
+}
+
+.ul-nav{
+    padding-right: 100px;
+}
+
+.body{
+    width: 900px;
+    margin: auto;
+    background-color: rgb(185, 185, 185);
+    
+}
